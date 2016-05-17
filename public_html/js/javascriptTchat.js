@@ -2,8 +2,9 @@ function writeFunction(message) {
     var pinkFluffy = "Pink fluffy says: <br>";
     $("#tchat-box")
             .html($("#tchat-box").html()+ pinkFluffy + "&emsp; &emsp; "+ message + "<br>")
-            .width(540)
-            .css({ overflow : 'auto'});
+            .width(590)
+            .css({ overflow : 'auto'})
+            .scrollTop(5000);
 }
 
 
